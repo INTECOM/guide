@@ -6,7 +6,7 @@
 The Sauce snippet is the code that makes everything else happen. Add the below code directly before the `</head>` on every page of your site:
 
 ```js
-window.Sauce={isReady:false,options:{},init:function(e){for(var t in e){this.options[t]=e[t]}var n=document.createElement("script");n.src="/dist/sauce.js";n.async=true;n.id="sauce-js";document.getElementsByTagName("head")[0].appendChild(n)},readyCallbacks:[],ready:function(e){if(this.isReady){e()}else{this.readyCallbacks.push(e)}},loadApp:function(e,t,n){this.readyCallbacks.push(function(){Sauce.loadApp(e,t,n)})},loadCustomApp:function(e,t){this.readyCallbacks.push(function(){Sauce.loadCustomApp(e,t)})},_data:{},describe:function(e,t){this._data[e]=t}}
+window.Sauce={isReady:false,options:{},init:function(e){for(var t in e){this.options[t]=e[t]}var n=document.createElement("script");n.src="//dtt617kogtcso.cloudfront.net/sauce.min.js";n.async=true;n.id="sauce-js";document.getElementsByTagName("head")[0].appendChild(n)},readyCallbacks:[],ready:function(e){if(this.isReady){e()}else{this.readyCallbacks.push(e)}},loadApp:function(e,t,n){this.readyCallbacks.push(function(){Sauce.loadApp(e,t,n)})},loadCustomApp:function(e,t){this.readyCallbacks.push(function(){Sauce.loadCustomApp(e,t)})},_data:{},describe:function(e,t){this._data[e]=t}}
 
 Sauce.init({ id: "yourclientid" });
 ```

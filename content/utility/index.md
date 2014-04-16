@@ -38,4 +38,4 @@ Sauce.data.get("transaction")
 // => Returns the full transaction object passed in describe.
 ```
 
-__Note:__ Sauce does not have a prescriptive structure for passing data at this stage, although we follow a structure similar to the [Universal Variable](http://docs.qubitproducts.com/uv) by Qubit.
+__Note:__ Sauce does not have a prescriptive structure for passing data at this stage; we recommend a structure similar to the [Universal Variable](http://docs.qubitproducts.com/uv) by Qubit.

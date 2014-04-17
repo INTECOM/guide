@@ -8,8 +8,8 @@ Global events is a great way of subscribing to events that happen in apps using 
 You can use either `on` or `once` to subscribe to events. (`once` is the same as `on`, but only happens once)
 
 ```js
-Sauce.events.on("action_publish", function (model) {
-  alert("action " + model.get("id") + " was published to Facebook!");
+Sauce.events.on("action_publish", function (action) {
+  alert("action " + action.id + " was published to Facebook!");
 });
 ```
 

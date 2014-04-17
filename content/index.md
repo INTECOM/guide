@@ -23,6 +23,7 @@ We've currently got a number of official apps:
 * CSS best practices (coming soon)
 * [UI components](/content/ui.md)
 * [Passing data to apps](/content/data.md)
+* [Global events](/content/events.md)
 
 
 

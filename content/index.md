@@ -3,6 +3,10 @@
 ##Getting started
 
 * Read our [quickstart guide](/content/quickstart.md)
+* Installing the JS SDK (coming soon)
+* Running apps (coming soon)
+* Creating Open Graph actions (coming soon)
+* Customising & styling (coming soon)
 
 
 ##Installing apps

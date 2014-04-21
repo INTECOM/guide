@@ -28,7 +28,7 @@ We've currently got a number of official apps:
 * [UI components](/content/ui.md)
 * [Passing data to apps](/content/data.md)
 * [Global events](/content/events.md)
-* [Publishing with the apps API](/content/apps_api.md)
+* [Publishing your app to the marketplace](/content/publishing.md)
 
 
 

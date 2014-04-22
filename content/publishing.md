@@ -33,12 +33,12 @@ The application config should be specified in the `sauce.app.json` file. Below i
       {
         "title": "Introduction",
         "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.",
-        "image": "http://placehold.it/420x228"
+        "image": "http://dtt617kogtcso.cloudfront.net/img/420x228.gif"
       },
       {
         "title": "Create Open Graph action",
         "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.",
-        "image": "http://placehold.it/420x228"
+        "image": "http://dtt617kogtcso.cloudfront.net/img/420x228.gif"
       }
     ],
     "finish": {

@@ -24,6 +24,10 @@ The application config should be specified in the `sauce.app.json` file. Below i
   "name": "button",
   "title": "Button",
   "description": "An enticing description goes here.",
+  "images": {
+    "thumb": "150x150.gif",
+    "card": "310x100.gif"
+  },
   "setup": {
     "steps": [
       {

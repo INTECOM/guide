@@ -36,7 +36,12 @@ The application config should be specified in the `sauce.app.json` file. Below i
         "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.",
         "image": "http://placehold.it/420x228"
       }
-    ]
+    ],
+    "finish": {
+      "message": "You made it! Any questions or ideas? Drop us a message on live chat below.",
+      "buttonText": "Back to apps list",
+      "buttonLink": "#apps"
+    }
   }
 }
 ```

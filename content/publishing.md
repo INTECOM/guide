@@ -28,9 +28,32 @@ The application config should be specified in the `sauce.app.json` file. Below i
     "thumb": "150x150.gif",
     "card": "310x100.gif"
   },
+
+  "settings": {
+    "global": {
+      "formDescription": "You can customize all the fields in the login prompt. Note that all parameters are optional, if you leave a field blank the form will still work.",
+      "fields": {
+        "title": {
+          "title": "Title",
+          "type": "text",
+          "placeholder": "The title of the prompt"
+        },
+        "minPageviews": {
+          "title": "Minimum pageviews before show",
+          "type": "number",
+          "placeholder": "The number of pageviews to wait before showing the box."
+        }
+      },
+      "codeDescription": "Copy & paste the below code directly after the <code>Sauce.init</code> line in your <a href='https://<%= client.siteDomain %>/admin/themes/<%= client.themeId %>?key=snippets/sauce.liquid' target='blank'>sauce.liquid</a> snippet."
+    },
+    "dom": {
+      "formDescription": "",
+      "fields": {},
+      "codeDescription": ""
+    } 
+  },
   
   "setup": {
-
     "steps": [
       {
         "title": "Introduction",
@@ -43,24 +66,6 @@ The application config should be specified in the `sauce.app.json` file. Below i
         "image": "http://dtt617kogtcso.cloudfront.net/img/420x228.gif"
       }
     ],
-
-    "globalSettings": {
-      "formDescription": "You can customize all the fields in the login prompt. Note that all parameters are optional, if you leave a field blank the form will still work.",
-      "fields": {
-        "title": {
-          "name": "Title",
-          "type": "text",
-          "placeholder": "The title of the prompt"
-        },
-        "minPageviews": {
-          "name": "Minimum pageviews before show",
-          "type": "number",
-          "placeholder": "The number of pageviews to wait before showing the box."
-        }
-      },
-      "codeDescription": "Copy & paste the below code directly after the <code>Sauce.init</code> line in your <a href='https://<%= client.siteDomain %>/admin/themes/<%= client.themeId %>?key=snippets/sauce.liquid' target='blank'>sauce.liquid</a> snippet."
-    },
-
     "finish": {
       "message": "You made it! Any questions or ideas? Drop us a message on live chat below.",
       "buttonText": "Back to apps list",

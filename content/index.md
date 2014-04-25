@@ -25,6 +25,7 @@ We've currently got a number of official apps:
 ##Building apps
 
 * The basics of building apps (coming soon)
+* [Publishing actions](/content/actions.md)
 * CSS best practices (coming soon)
 * [UI components](/content/ui.md)
 * [Passing data to apps](/content/data.md)

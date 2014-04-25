@@ -7,6 +7,7 @@
 * Running apps (coming soon)
 * Creating Open Graph actions (coming soon)
 * Customising & styling (coming soon)
+* [Troubleshooting](/content/troubleshooting.md)
 
 
 ##Installing apps

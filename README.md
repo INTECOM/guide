@@ -1,4 +1,4 @@
 Sauce Guide
 ===========
 
-A growing collection of docs related to implementing Sauce. The full guide is available in the [content/](/content/index.md) directory.
+A guide to implementing Sauce. Please visit our [Wiki](/wiki) page for the content.
